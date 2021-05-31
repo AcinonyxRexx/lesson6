@@ -11,4 +11,4 @@ ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
 EXPOSE 8080
-CMD CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"]
